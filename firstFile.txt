@@ -1,0 +1,30 @@
+GIT COURSE 
+
+
+What is git?(vcs)
+Version control is a software that tracks and manages changes to files over the time.
+Git allows users to revisit the earlier version of the files,compare the changes between versions,undo the changes,collaborate and share changes…….
+
+Git helps us ..
+Track changes across multiple changes
+Compare versions of the project
+Time travel back to old versions
+Revert to the previous versions
+Collaborate and share changes 
+Combine changes
+
+Configure git globally
+Git config --global user.name “harsha”
+Git config --global user.email “harshagu.gubbi@gmail.com”
+
+Git Repo
+It is a workspace that tracks and manages files inside the folder.
+Git Status
+It gives the information  on the current status of the git repository and its contents.
+Git status
+
+Git Init
+It is used to create a new git repo,before we do anything related to git, we must initialize the repo first. Git Init
+Git Add
+
+
