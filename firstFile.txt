@@ -25,6 +25,19 @@ Git status
 
 Git Init
 It is used to create a new git repo,before we do anything related to git, we must initialize the repo first. Git Init
+
 Git Add
+There are 3 stages on the project.Below are the 3 stages
+Use git add to add the specific files to the staging area. Add multiple files at once with space in between.
+
+
+ 
+
+Git commit
+It will commit all staged changes.
+Git commit -m “my commit message”
+-m allow to pass an inline commit messages, rather than launching text editor.
+
+
 
 
