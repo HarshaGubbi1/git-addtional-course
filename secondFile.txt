@@ -1,1 +1,5 @@
+=======
+Second file
+=======
+
 Second file text

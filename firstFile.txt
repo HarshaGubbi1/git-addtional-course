@@ -1,4 +1,6 @@
-GIT COURSE 
+=======
+GIT COURSE
+=======
 
 
 What is git?(vcs)
