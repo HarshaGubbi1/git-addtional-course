@@ -33,12 +33,29 @@ There are 3 stages on the project.Below are the 3 stages
 Use git add to add the specific files to the staging area. Add multiple files at once with space in between.
 
 
- 
 
 Git commit
 It will commit all staged changes.
 Git commit -m “my commit message”
 -m allow to pass an inline commit messages, rather than launching text editor.
+
+.gitingore
+Tell git which files and directories to ignore in a given repository
+Create a .gitignore file to the root of the repo
+.DS_Store will ignore file named .DS_Store
+folderName/ will ignore full folder
+*.log wil ignore all files that contains .log extension 
+
+Git Branches
+They enable us to create separate contexts where we can try new things, or even work on multiple ideas in parallel.
+Changes on one branches wont impact the other branches unless we merge the changes
+Default branch name is master
+Many projects designate master branch as their  source of truth or official branches for their code base
+Show all branches--git branch
+Head-- it is just a pointer that refers to a current location (branch) our repo
+Create branches-- git branch <branch name>, but head remains in old branch only. If you switch the branch then  head will change location.
+
+
 
 
 
