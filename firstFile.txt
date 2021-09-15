@@ -54,6 +54,23 @@ Many projects designate master branch as their  source of truth or official bran
 Show all branches--git branch
 Head-- it is just a pointer that refers to a current location (branch) our repo
 Create branches-- git branch <branch name>, but head remains in old branch only. If you switch the branch then  head will change location.
+Switch between branches--git switch <branch name>
+Add all files and commit in single line--- git commit -a -m “message”
+Create and switch in single command-- git switch -c <branch name>
+Delete branch --git branch -d <branch name>. We cant delete if you are in same branch, switch the branch and delete.
+If branch is not merged then it wont delete. To make forced delete use -D
+Rename If we rename branch go the branch and remake using git branch -m <branch name>
+Git branch -v gives more info about branches and last commits
+
+  
+Git merges
+We have to co operate changes from one branch to another branch. We can do this using the git merge
+We merge branches, not specific commits
+We always merge to current head branch
+Git switch master
+Git merge bugfix-- here we are merging to master
+When merge all the commits will also add to master branch
+If no work is done on master is called fast forward merge
 
 
 
